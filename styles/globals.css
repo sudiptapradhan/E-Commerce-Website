@@ -433,7 +433,7 @@ padding: 30px 65px;
   transition: .3s ease-in-out;
 }
 .product-detail-image:hover{
-  background-color: #f02d34;
+  background-color: #f15d62;
 
 }
 .small-images-container{
@@ -450,7 +450,7 @@ padding: 30px 65px;
 }
 
 .selected-image{
-  background-color:#f02d34;
+  background-color:#f15d62;
 }
 .reviews{
   color: #f02d34;
