@@ -1,4 +1,4 @@
-//the name of the file is inisde square brackets which means it's going to be dynamic
+ //the name of the file is inisde square brackets which means it's going to be dynamic
 import React, {useState} from 'react';
 import { AiOutlineMinus, AiOutlinePlus, AiFillStar, AiOutlineStar } from 'react-icons/ai';
 import { client, urlFor } from '../../lib/client';
