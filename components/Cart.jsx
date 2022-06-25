@@ -17,16 +17,15 @@ const Cart = () => {
 
   const handleCheckout = async () => {
     const stripe = await getStripe();
-    console.log("HHHH" ,stripe)
+    
     const response = await fetch ('/api/stripe', {
       method: 'POST',
       headers:{
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer sk_test_51LEcgPSCyst2bF64H7hTFiSDOxwgBo7KQQYp7PADkeMwXQzx8a1dO3e1aLPgY2xUdlkaOwvrKepdCadUi5gnUPQ600Bz1aeeQk'
       },
       body: JSON.stringify(cartItems),
-    })
-    console.log("===", await response.clone().json())
+    });
+    // console.log("===", await response.clone().json())
     if(response.statusCode === 500) return;
 
     const data = await response.json();
