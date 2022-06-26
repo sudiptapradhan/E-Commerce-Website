@@ -65,9 +65,10 @@ width: 100%;
     margin-left: 6px;
 }
 .logo{
-  color: gray;
+  color: rgb(0, 0, 0);
   font-size: 18px;
-
+  font-weight: 700;
+  
 }
 .cart-icon{
   font-size: 25px;
@@ -141,6 +142,7 @@ width: 100%;
 .hero-banner-container .beats-solo{
   font-size: 20px;
 }
+
 .hero-banner-container button{
    border-radius: 15px;
   padding: 10px 16px;
